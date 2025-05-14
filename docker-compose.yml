@@ -1,0 +1,23 @@
+services:
+  template-proxy:
+    image: nginx:stable
+    stop_grace_period: 0s
+    container_name: template-proxy
+    ports:
+      - '3000:80'
+    volumes:
+      - ./scripts/nginx.conf:/etc/nginx/conf.d/default.conf
+    networks:
+      - local-network
+    dns:
+      - 223.5.5.5
+      - 8.8.8.8
+      - 8.8.4.4
+    dns_search: .
+    extra_hosts:
+      - 'host.docker.internal:host-gateway'
+      - 'aaaaa.baidu.cn:192.168.1.1'
+
+networks:
+  local-network:
+    driver: bridge

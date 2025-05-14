@@ -1,0 +1,11 @@
+{
+  "name": "@template/apps-image",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --force",
+    "build": "tsc -b ../../tsconfig.json && vite build",
+    "preview": "vite preview --port 3004"
+  }
+}
