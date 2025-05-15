@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "cd app/image && pnpm dev",
+    "build": "cd app/image && pnpm build",
     "check": "pnpm run type-check && pnpm run fix",
     "type-check": "node --max-old-space-size=4096 ./node_modules/typescript/lib/tsc.js --build",
     "fix:prettier": "node ./scripts/prettier.cjs",
