@@ -27,6 +27,7 @@
     "baseUrl": ".",
     "paths": {
       // TODO: 配置为什么是个数组？
+      "@template/wasm": ["packages/wasm"]
       // "common/*": ["common/*"],
       // "layout/*": ["layout/*"],
     }

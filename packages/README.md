@@ -1,0 +1,2 @@
+- 创建一个 rust 项目 `cargo new project`
+- 创建一个lib项目 ``cargo new  project --lib`

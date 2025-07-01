@@ -1,0 +1,15 @@
+{
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "typescript.tsserver.experimental.enableProjectDiagnostics": true,
+  "cSpell.customDictionaries": {
+    "project-words": {
+      "name": "project-words",
+      "path": "${workspaceRoot}/plugins/project-words.txt",
+      "description": "Words used in this project",
+      "addWords": true
+    },
+    "custom": true
+  },
+  "rust-analyzer.linkedProjects": ["packages/wasm/Cargo.toml"],
+  "editor.codeLens": true
+}
