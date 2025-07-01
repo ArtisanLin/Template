@@ -1,5 +1,9 @@
 # Monorepo Template
 
+- [ ] 整理dev启动逻辑
+- [ ] 将各个packages改造成lerna，能够单独管理包的版本
+- [ ] nxjs 管理构建时的依赖关系 —— 需要找到使用场景
+
 ## package.json
 
 ### onlyBuiltDependencies

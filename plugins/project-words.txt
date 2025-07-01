@@ -1,4 +1,6 @@
 bindgen
 cdylib
 nalgebra
+nxjs
+realpath
 rlib
