@@ -10,7 +10,7 @@
   ],
   "keywords": [],
   "scripts": {
-    "prepare": "sh ./scripts/env.sh",
+    "install": "sh ./scripts/env.sh",
     "dev": "cargo watch -s \"wasm-pack build --target web --out-dir ./dist --no-package\"",
     "build": "rimraf ./dist && wasm-pack build --target web --out-dir ./dist --release --no-package"
   },
