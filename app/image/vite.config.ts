@@ -7,7 +7,6 @@ import { defineConfig } from 'vite'
 function loadEnvFile(filePath: string): Record<string, string> {
   if (!fs.existsSync(filePath)) return {}
   const result = dotenv.config({ path: filePath })
-  console.info('loadEnvFile', result.parsed, filePath)
   return result.parsed || {}
 }
 
