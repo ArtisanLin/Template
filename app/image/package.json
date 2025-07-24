@@ -1,5 +1,5 @@
 {
-  "name": "@template/apps-image",
+  "name": "@template-v1-app/image",
   "private": true,
   "version": "2.0.0",
   "type": "module",

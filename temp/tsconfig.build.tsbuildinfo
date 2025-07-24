@@ -1,0 +1,1 @@
+{"root":["../packages/react-hooks/src/index.ts","../scripts/build.js","../scripts/inline-enums.js","../scripts/prettier.cjs","../scripts/utils.js","../rollup.config.js","../rollup.dts.config.js"],"version":"5.8.3"}

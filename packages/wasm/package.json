@@ -1,5 +1,5 @@
 {
-  "name": "@template/wasm",
+  "name": "@template-v1-sdk/wasm",
   "version": "0.0.1",
   "description": "",
   "main": "dist/wasm.d.ts",

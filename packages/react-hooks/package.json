@@ -1,0 +1,34 @@
+{
+  "name": "@template-v1-sdk/react-hooks",
+  "version": "0.0.1",
+  "description": "搜集常用的 react hooks",
+  "scripts": {
+    "build": "tsc -b ../../tsconfig.json"
+  },
+  "main": "index.js",
+  "types": "dist/react-hooks.d.ts",
+  "files": [
+    "dist",
+    "index.js"
+  ],
+  "peerDependencies": {},
+  "dependencies": {},
+  "exports": {
+    ".": {
+      "types": "./dist/react-hooks.d.ts",
+      "node": "./dist/react-hooks.esm-bundler.js",
+      "import": "./dist/react-hooks.esm-bundler.js",
+      "require": "./index.js"
+    },
+    "./*": "./*"
+  },
+  "buildOptions": {
+    "name": "react-hooks",
+    "formats": [
+      "esm-bundler",
+      "cjs"
+    ]
+  },
+  "keywords": [],
+  "license": "Proprietary"
+}
