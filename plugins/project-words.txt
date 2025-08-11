@@ -1,5 +1,6 @@
 bindgen
 cdylib
+kkfileview
 nalgebra
 nxjs
 realpath

@@ -11,5 +11,6 @@
     "custom": true
   },
   "rust-analyzer.linkedProjects": ["packages/wasm/Cargo.toml"],
-  "editor.codeLens": true
+  "editor.codeLens": true,
+  "liveServer.settings.port": 5501
 }
