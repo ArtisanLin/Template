@@ -11,11 +11,10 @@
 package.json 中的这段配置：
 
 ```json
-"pnpm": {
-  "onlyBuiltDependencies": [
-    "@swc/core",
-    "esbuild"
-  ]
+{
+  "pnpm": {
+    "onlyBuiltDependencies": ["@swc/core", "esbuild"]
+  }
 }
 ```
 

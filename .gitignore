@@ -8,5 +8,8 @@ dist
 
 .nx
 .nx/cache
+.idea
 
 **/.parcel-cache/**
+
+
